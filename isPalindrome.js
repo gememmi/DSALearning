@@ -15,7 +15,7 @@ function isPalindrome(word){
   // call the reverse function on our word argument
 const reversedWord = reverse(word);
 //compare the original word and the reversed word
-return word === reversedWord
+ 
 
 }
 
@@ -31,7 +31,7 @@ function isPalindromeTwo (word){
 //also here is where I learned that for loops need to have semi colons between conditions
 for ( let i = 0; i < word.length / 2; i++){
 const j = word.length - 1 - i;
-// index j will be the length of the word, divided by 2, minus index i. doing this will place us right at the corresponding index of i
+// index j will be the length of the word minus 1, minus index i. doing this will place us right at the corresponding index of i
 if (word[i] !== word[j]) return false;
 //this just stops the iteration in its tracks if it is immediately not mathcing
 }
