@@ -18,15 +18,14 @@
 //     return resultArr
 // }
 
-// function conArr(arr){
-//     let newArr = [];
-//     for (i = 0; i < arr.length; i++){
-//         newArr += arr[i];
-//     }
-//     let resultArr = arr.push(newArr);
-//     return resultArr;
+function conArr(arr){
+    let newArr = [];
+    for (i = 0; i <= arr.length; i++){
+        newArr.push(arr[i]);
+    }
+    return resultArr;
 
-// }
+}
 
 function getConcatenation(nums){
     let ans = [...nums];
